@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission10_Pierce")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4dfe9fd21f33e2a75a345644e7df11ef437119a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission10_Pierce")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission10_Pierce")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

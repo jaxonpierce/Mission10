@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import { fetchBowlers } from "../api";
 
 interface Bowler {
-    Name: string;
-    Team: string;
-    Address: string;
-    City: string;
-    State: string;
-    Zip: string;
-    Phone: string;
+    name: string;
+    team: string;
+    address: string;
+    city: string;
+    state: string;
+    zip: string;
+    phone: string;
 }
 
 const BowlersList = () => {
@@ -48,13 +48,13 @@ const BowlersList = () => {
                     <tbody>
                         {bowlers.map((b, index) => (
                             <tr key={index} className="border border-gray-400">
-                                <td>{b.Name}</td>
-                                <td>{b.Team}</td>
-                                <td>{b.Address}</td>
-                                <td>{b.City}</td>
-                                <td>{b.State}</td>
-                                <td>{b.Zip}</td>
-                                <td>{b.Phone}</td>
+                                <td>{b.name}</td>
+                                <td>{b.team}</td>
+                                <td>{b.address}</td>
+                                <td>{b.city}</td>
+                                <td>{b.state}</td>
+                                <td>{b.zip}</td>
+                                <td>{b.phone}</td>
                             </tr>
                         ))}
                     </tbody>
